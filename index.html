@@ -5,16 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <script src="script.js"></script> 
     </head>
-    <script>
-       
-
-    </script>
     <body>
-    
+    <div id="container"></div>
+
     <script>
-        function dada(){
-            //extends
+    /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+        function alkindsoftests(){
+             //extends
             class Parent{
                 //age=34
                 constructor(){}
@@ -31,17 +30,21 @@
 
                 }
             }
-
-            let foo ={
-                bar:1,
-                baz:2
-            }
             const mychild = new Child();
             //mychild.
-            const logrow =`kjldkjfgkl ${foo.bar} awesome` 
+        }
+    /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+        function init(){
+            let foo ={
+                bar:"Daniel",
+                baz:2
+            }
+            
+            const logrow =`Hello ${foo.bar} you are awesome!`; 
             console.log(logrow);
         }
-        document.onload=dada()
+    /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+        document.onload=init();
     </script>
     </body>
 </html>
